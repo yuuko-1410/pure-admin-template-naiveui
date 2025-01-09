@@ -136,7 +136,7 @@ const transitionMain = defineComponent({
               >
                 <BackTopIcon />
               </el-backtop>
-              <div class="grow">
+              <div class="grow p-4">
                 <transitionMain :route="route">
                   <keep-alive
                     v-if="isKeepAlive"
@@ -208,6 +208,6 @@ const transitionMain = defineComponent({
 }
 
 .main-content {
-  margin: 12px;
+  /* margin: 12px; */
 }
 </style>
